@@ -5,14 +5,9 @@
     padding: 0;
 }
 
-@font-face {
-    font-family: 'quattrocento';
-    src: url(../site git/fonts/Quattrocento-Regular.ttf);
-}
-
 html {
     /*a cada 1rem será considerado 10px*/
-    font-family: quattrocento;
+    font-family: 'Quattrocento', serif;
     font-size: 62.5%;
 }
 
@@ -193,29 +188,32 @@ main {
 
 .section {
     margin: 0 auto;
-    width: 90%;
     margin-bottom: 10vh;
+    width: 90%;
     padding-top: 12vh;
 }
 
 #experiencia {
     height: 52vh;
     /* background-color: blue; */
+    margin-bottom: -10vh;
 }
 
 #educacao {
     height: 70vh;
     /* background-color: burlywood; */
+    margin-bottom: -10vh;
 }
 
 #habilidades {
-    height: 55vh;
+    height: 64vh;
     /* background-color: chartreuse; */
+    margin-bottom: -10vh;
 }
 
 #projetos {
     /* background-color: crimson; */
-    height: 70vh;
+    height: 80vh;
 }
 
 
@@ -231,16 +229,32 @@ main {
     float: right;
 }
 
+.container-experiencia {
+    /* background-color: yellow; */
+    width: 97%;
+    height: 18vh;
+    float: right;
+}
+
+.container-educacao {
+    /* background-color: yellow; */
+    width: 97%;
+    height: 18vh;
+    float: right;
+}
+
 .container-habilidades {
     /* background-color: yellowgreen; */
     width: 97%;
     height: 13vh;
+    margin-bottom: 2vh;
     float: right;
 }
 
 .container-projetos {
     /* background-color: yellowgreen; */
     width: 97%;
+    margin-bottom: 2vh;
     height: 18vh;
     float: right;
 }
@@ -266,7 +280,7 @@ main {
 }
 
 .content-full {
-    /* background-color: yellow; */
+    background-color: yellow;
     height: 30vh;
     width: 100%;
     float: left;
@@ -399,6 +413,7 @@ footer {
     width: 100%;
     height: 8vh;
     text-align: center;
+    margin-bottom: 8vh;
 }
 
 
@@ -438,6 +453,15 @@ footer {
 
 
 /* Responsividade */
+
+@media (max-width:1024px) {
+    html {
+        font-size: 50%;
+    }
+    .container-projetos {
+        margin-bottom: 4vh;
+    }
+}
 
 @media (max-width:768px) {
     html {
@@ -485,6 +509,16 @@ footer {
         height: 26vh;
         float: right;
     }
+    .container-experiencia {
+        width: 97%;
+        height: 15vh;
+        float: right;
+    }
+    .container-educacao {
+        width: 97%;
+        height: 17vh;
+        float: right;
+    }
     .section {
         margin: 0 auto;
         width: 95%;
@@ -492,10 +526,10 @@ footer {
         padding-top: 12vh;
     }
     #experiencia {
-        height: 72vh;
+        height: 63vh;
     }
     #educacao {
-        height: 102vh;
+        height: 93vh;
     }
     #habilidades {
         height: 60vh;
