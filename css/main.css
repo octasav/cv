@@ -199,24 +199,23 @@ main {
 }
 
 #experiencia {
-    /* height: 46vh; */
-    height: 46vh;
+    height: 52vh;
     /* background-color: blue; */
 }
 
 #educacao {
-    height: 60vh;
+    height: 70vh;
     /* background-color: burlywood; */
 }
 
 #habilidades {
-    height: 66vh;
+    height: 55vh;
     /* background-color: chartreuse; */
 }
 
 #projetos {
     /* background-color: crimson; */
-    height: 56vh;
+    height: 70vh;
 }
 
 
@@ -228,7 +227,21 @@ main {
 .container {
     /* background-color: yellow; */
     width: 97%;
-    height: 15vh;
+    height: 18vh;
+    float: right;
+}
+
+.container-habilidades {
+    /* background-color: yellowgreen; */
+    width: 97%;
+    height: 13vh;
+    float: right;
+}
+
+.container-projetos {
+    /* background-color: yellowgreen; */
+    width: 97%;
+    height: 18vh;
     float: right;
 }
 
@@ -240,21 +253,21 @@ main {
 
 .content-esquerda {
     /* background-color: blueviolet; */
-    height: 15vh;
+    height: 18vh;
     width: 20%;
     float: left;
 }
 
 .content-direita {
     /* background-color: brown; */
-    height: 15vh;
+    height: 18vh;
     width: 78%;
     float: right;
 }
 
 .content-full {
     /* background-color: yellow; */
-    height: 15vh;
+    height: 30vh;
     width: 100%;
     float: left;
 }
@@ -273,14 +286,14 @@ main {
     /* background-color: tomato; */
     width: 3%;
     /* o tamanho vai de acordo com quantos containers tem (nesse caso 3 de 15vh) height: 45vh mas ai vai ficar maior q o txt; */
-    height: 40vh;
+    height: 46vh;
     float: left;
 }
 
 .exp-linhadotempo {
     /* background-color: wheat; */
     width: 3%;
-    height: 25vh;
+    height: 28vh;
     float: left;
 }
 
@@ -459,7 +472,17 @@ footer {
     }
     .container {
         width: 97%;
-        height: 25vh;
+        height: 30vh;
+        float: right;
+    }
+    .container-habilidades {
+        width: 97%;
+        height: 16vh;
+        float: right;
+    }
+    .container-projetos {
+        width: 97%;
+        height: 26vh;
         float: right;
     }
     .section {
@@ -469,38 +492,38 @@ footer {
         padding-top: 12vh;
     }
     #experiencia {
-        height: 65vh;
+        height: 72vh;
     }
     #educacao {
-        height: 90vh;
+        height: 102vh;
     }
     #habilidades {
-        height: 90vh;
+        height: 60vh;
     }
     #projetos {
-        height: 40vh;
+        height: 91vh;
     }
     .content-esquerda p {
         line-height: 2vh;
     }
     .content-esquerda {
-        height: 25vh;
+        height: 30vh;
         width: 20%;
         float: left;
     }
     .content-direita {
-        height: 25vh;
+        height: 30vh;
         width: 78%;
         float: right;
     }
     .exp-linhadotempo-educacao {
         width: 3%;
-        height: 64vh;
+        height: 77vh;
         float: left;
     }
     .exp-linhadotempo {
         width: 3%;
-        height: 39vh;
+        height: 46vh;
         float: left;
     }
     .alive {
@@ -522,7 +545,17 @@ footer {
     }
     .container {
         width: 96%;
-        height: 31vh;
+        height: 35vh;
+        float: right;
+    }
+    .container-habilidades {
+        width: 96%;
+        height: 18vh;
+        float: right;
+    }
+    .container-projetos {
+        width: 96%;
+        height: 35vh;
         float: right;
     }
     .content-esquerda p {
@@ -553,25 +586,25 @@ footer {
         padding-top: 12vh;
     }
     #experiencia {
-        height: 80vh;
+        height: 83vh;
     }
     #educacao {
-        height: 110vh;
+        height: 118vh;
     }
     #habilidades {
-        height: 120vh;
+        height: 67vh;
     }
     #projetos {
-        height: 60vh;
+        height: 118vh;
     }
     .exp-linhadotempo-educacao {
         width: 4%;
-        height: 87.5vh;
+        height: 93vh;
         float: left;
     }
     .exp-linhadotempo {
         width: 4%;
-        height: 53.5vh;
+        height: 57vh;
         float: left;
     }
     .alive {
