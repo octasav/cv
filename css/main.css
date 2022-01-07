@@ -6,16 +6,18 @@
 }
 
 @font-face {
-    font-family: quattrocento;
+    font-family: 'quattrocento';
     src: url(../site git/fonts/Quattrocento-Regular.ttf);
 }
 
 html {
     /*a cada 1rem será considerado 10px*/
+    font-family: quattrocento;
     font-size: 62.5%;
 }
 
 body {
+    font-family: quattrocento;
     font-size: 1.6rem;
 }
 
@@ -204,16 +206,16 @@ main {
 
 #educacao {
     height: 60vh;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 #habilidades {
     height: 66vh;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 #projetos {
-    background-color: crimson;
+    /* background-color: crimson; */
     height: 56vh;
 }
 
