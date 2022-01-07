@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: quattrocento;
-    src: url(fonts/Quattrocento-Regular.ttf);
+    src: url(../site git/fonts/Quattrocento-Regular.ttf);
 }
 
 html {
@@ -204,17 +204,17 @@ main {
 
 #educacao {
     height: 60vh;
-    /* background-color: burlywood; */
+    background-color: burlywood;
 }
 
 #habilidades {
     height: 66vh;
-    /* background-color: chartreuse; */
+    background-color: chartreuse;
 }
 
-#lideranca {
-    /* background-color: crimson; */
-    height: 36vh;
+#projetos {
+    background-color: crimson;
+    height: 56vh;
 }
 
 
@@ -475,7 +475,7 @@ footer {
     #habilidades {
         height: 90vh;
     }
-    #lideranca {
+    #projetos {
         height: 40vh;
     }
     .content-esquerda p {
@@ -559,7 +559,7 @@ footer {
     #habilidades {
         height: 120vh;
     }
-    #lideranca {
+    #projetos {
         height: 60vh;
     }
     .exp-linhadotempo-educacao {
